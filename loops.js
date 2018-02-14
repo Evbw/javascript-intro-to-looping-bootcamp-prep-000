@@ -2,6 +2,11 @@ var array = []
 
 function forLoop(array) {
   for (var i = 1; i < 26; i++) {
-    console.log ("I am ${i} strange loop")
+    if (i<2) {
+    console.log ("I am i strange loop")
+    }
+    else {
+      console.log ("I am ${i} strange loops.")
+    }
   }
 }
