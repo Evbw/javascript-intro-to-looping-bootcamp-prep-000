@@ -1,7 +1,7 @@
 var testArray = []
 
 function forLoop(array) {
-  for (let i = 1; i < 25; i++) {
+  for (var i = 1; i < 25; i++) {
     if (i === 1) {
     array.push("I am " + i + " strange loop")
     }
