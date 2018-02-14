@@ -1,4 +1,4 @@
-var array = []
+var testArray = []
 
 function forLoop(array) {
   for (var i = 1; i < 27; i++) {
